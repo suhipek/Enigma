@@ -1,0 +1,7 @@
+{
+    "rewrites": [
+      { "source": "/play", "destination": "/api/index" },
+      { "source": "/", "destination": "/pages/list.html" },
+      { "source": "/play/:match*", "destination": "/pages/play.html"}
+    ]
+  }
